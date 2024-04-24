@@ -21,18 +21,21 @@ const About = () => {
           readable content.
         </p>
         <p className="a-desc">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat duis aute irure dolor in reprehende.
+          The best gift an enthusiast can have is to be asked to do something he doesn't know.
+        </p>
+        <p className="a-desc">
+          You will be able to investigate, stumble and above all learn while you will be developing your potential and knowledge.
         </p>
         <div className="a-Me">
           <div className="a-award-texts">
-            <h4 className="a-award-title">International Design Awards 2021</h4>
+            <h4 className="a-award-title">My motto</h4>
             <p className="a-award-desc">
-              Nemo enim ipsam voluptatem quia voluptas sit aspernatur autodit
-              and fugit.
+              Why do we fall?
             </p>
+            <p className="a-award-desc">
+              To rise stronger..!
+            </p>
+
           </div>
         </div>
       </div>
