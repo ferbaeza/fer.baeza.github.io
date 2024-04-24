@@ -17,7 +17,7 @@ const Proyectos =()=>{
 
             </div>
 
-            <div className="container">
+            <div className="repositorios-container">
                 {proyectos.map((item) => (
                     <Card key={item.id} repository={item} />
                 ))}

@@ -7,18 +7,17 @@ const Card = ({ repository })=>{
                 <div className="card-titulo">
                     <h1>{repository.name}</h1>
                 </div>
-                <div className="card-body">
-
-                </div>
                 <div className="card-text">
                     <p>{repository.descripcion}</p>
                 </div>
-                <div className="icons">
-                    <div className="icon">
-                        <img src={repository.iconOne} alt="icon" className="icon-source"/>
-                    </div>
-                    <div className="icon">
-                        <img src={repository.iconTwo} alt="icon" className="icon-source"/>
+                <div className="tech">
+                    <div className="icons">
+                        <div className="icon">
+                            <img src={repository.iconOne} alt="icon" className="icon-source"/>
+                        </div>
+                        <div className="icon">
+                            <img src={repository.iconTwo} alt="icon" className="icon-source"/>
+                        </div>
                     </div>
                 </div>
             </div>
