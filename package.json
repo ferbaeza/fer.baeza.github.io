@@ -4,7 +4,7 @@
   "type": "module",
   "homepage": "http://ferbaeza.github.io/ferbaeza.github.io",
   "scripts": {
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "predeploy": "yarn run build",
     "dev": "vite",
     "build": "vite build",
